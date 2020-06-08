@@ -1,0 +1,24 @@
+<html>
+  <body>
+    <h1>Hello I am a webpage</h1>
+    <body>
+      <noscript>You need to enable JavaScript to run this app.</noscript>
+      <div id="root"></div>
+      <script
+        type="text/javascript"
+        src="http://localhost:5004/loader"
+      ></script>
+      <script async type="text/javascript">
+        loadScript("http://localhost:5004/js", function (_) {
+          console.log({ App });
+
+          App.init({
+            config: {
+              name: "Colin",
+            },
+          });
+        });
+      </script>
+    </body>
+  </body>
+</html>
