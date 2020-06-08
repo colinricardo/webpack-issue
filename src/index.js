@@ -13,6 +13,8 @@ const App = () => {
   );
 };
 
+App();
+
 export default App;
 
 // If you want your app to work offline and load faster, you can change
