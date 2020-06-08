@@ -13,7 +13,7 @@ const App = () => {
   );
 };
 
-module.exports = App;
+export default App;
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
